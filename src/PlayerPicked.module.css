@@ -1,0 +1,23 @@
+
+.playerPickedInput {
+    width: auto;
+  }
+  
+
+  .playerNameHolder {
+    display: none;
+    width: 73%;
+  }
+  
+  .bidInput {
+    width: 30px;
+    margin-left: 3px;
+  }
+  
+
+  .bidHolder {
+    margin-right: 10%;
+    display: none;
+  }
+  
+  

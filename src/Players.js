@@ -5,6 +5,7 @@ import PlayerStats from './PlayerStats';
 import { useDispatch } from 'react-redux';
 import { updateAllNBAPlayers } from './actions';
 import { useSelector } from 'react-redux';
+import PlayersCSS from './Players.module.css';
 
 
 const Players = () => {
@@ -131,31 +132,31 @@ const Players = () => {
     
     return (
         <div>
-             <button className="filter-button" onClick={runFilter}>FILTER</button>
+             <button className={PlayersCSS.filterButton} onClick={runFilter}>FILTER</button>
 
-             <div className="playerstats-title-container">
-              <span className="playerstats-title">
+             <div className={PlayersCSS.playerstatsTitleContainer}>
+              <span className={PlayersCSS.playerstatsTitle}>
                 Name
               </span>
-              <span className="playerstats-title">
+              <span className={PlayersCSS.playerstatsTitle}>
                 Team
               </span>
-              <span className="playerstats-title">
+              <span className={PlayersCSS.playerstatsTitle}>
                 Games Played
               </span>
-              <span className="playerstats-title">
+              <span className={PlayersCSS.playerstatsTitle}>
                 Points
               </span>
-              <span className="playerstats-title">
+              <span className={PlayersCSS.playerstatsTitle}>
                 Assists
               </span>
-              <span className="playerstats-title">
+              <span className={PlayersCSS.playerstatsTitle}>
                 Rebounds
               </span>
-              <span className="playerstats-title">
+              <span className={PlayersCSS.playerstatsTitle}>
                 Steals
               </span>
-              <span className="playerstats-title">
+              <span className={PlayersCSS.playerstatsTitle}>
                 Blocks
               </span>
             </div>

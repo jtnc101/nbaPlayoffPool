@@ -1,6 +1,7 @@
 import React from 'react';
 import {useState} from 'react';
 import PlayerPicked from './PlayerPicked';
+import TeamCSS from './Team.module.css';
 
 const Team = () => {
 
@@ -39,20 +40,20 @@ const Team = () => {
     }
     return( 
 
-        <table className="team">
-            <tr className="team-name-row">
+        <table className={TeamCSS.team}>
+            <tr >
                 <th colspan="4" className="team-name-header"> 
-                    <input type="txt" placeholder="Team Name" className="team-name-value" onChange = {handleInput} value={teamName} ></input>
-                    <span className="team-name-holder" ></span>
+                    <input type="txt" placeholder="Team Name" className={TeamCSS.teamNameValue} onChange = {handleInput} value={teamName} ></input>
+                    <span className={TeamCSS.teamNameHolder} ></span>
                     <i className="fas fa-plus-square" onClick={handlePlus}></i>
-                    <i class="fas fa-edit" onClick={handleEdit} ></i>
+                    <i className= "fas fa-edit" onClick={handleEdit} ></i>
                 </th>
             </tr>
-            <tr className="title-playerTeamPointsBidRow" >
-                <th className="title-player">Player</th>
-                <th className="title-Team">Team</th>
-                <th className="title-Points">Points</th>
-                <th className="title-Bid">Bid</th>
+            <tr className={TeamCSS.titlePlayerTeamPointsBidRow} >
+                <th >Player</th>
+                <th >Team</th>
+                <th >Points</th>
+                <th >Bid</th>
             </tr>
 
             { playersPickedList.map( () => (

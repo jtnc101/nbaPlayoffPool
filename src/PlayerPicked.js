@@ -1,6 +1,7 @@
 import React from 'react';
 import {useState} from 'react';
 import './App.css';
+import PlayerPickedCSS from './PlayerPicked.module.css';
 import { addPlayer,minusPlayer } from './actions';
 import { useDispatch } from 'react-redux';
 import { useSelector } from 'react-redux';
@@ -104,8 +105,8 @@ const PlayerPicked = ()=> {
     return (
         <tr className="player-picked-row">
             <td className="player-picked-name player-picked-data" >
-                <input type="txt" placeholder="player name" value={playerName} onChange={handlePlayerName} className="player-picked-input"></input>
-                <span className="player-name-holder"></span>
+                <input type="txt" placeholder="player name" value={playerName} onChange={handlePlayerName} className={PlayerPickedCSS.playerPickedInput}></input>
+                <span className={PlayerPickedCSS.playerNameHolder}></span>
                 <i className="fas fa-plus-square" onClick={handleAddPlayer}></i>
                 <i class="fas fa-edit" onClick={handleEditPlayer}></i>
             </td>
@@ -116,8 +117,8 @@ const PlayerPicked = ()=> {
                 0
             </td>
             <td className="player-picked-bid player-picked-data">
-                <input type="txt" placeholder="0" className="bid-input" />
-                <span className="bid-holder"></span>
+                <input type="txt" placeholder="0" className={PlayerPickedCSS.bidInput} />
+                <span className={PlayerPickedCSS.bidHolder}></span>
                 <i className="fas fa-plus-square" onClick={handleAddBid}></i>
                 <i class="fas fa-edit" onClick={handleEditBid} ></i>
             </td>

@@ -1,18 +1,18 @@
 import React from 'react';
-
+import PlayerStatsCSS from './PlayerStats.module.css';
 
 const PlayerStats = ({name,team,points,games_played,rebounds, assists, steals,blocks}) => {
 
     return (
-        <div className="playerstats-container">
-            <span className="playerstats-element">{name}</span>
-            <span className="playerstats-element">{team}</span>
-            <span className="playerstats-element">{games_played}</span>
-            <span className="playerstats-element">{points}</span>
-            <span className="playerstats-element">{assists}</span>
-            <span className="playerstats-element">{rebounds}</span>
-            <span className="playerstats-element">{steals}</span>
-            <span className="playerstats-element">{blocks}</span>
+        <div className={PlayerStatsCSS.playerstatsContainer}>
+            <span className={PlayerStatsCSS.playerstatsElement}>{name}</span>
+            <span className={PlayerStatsCSS.playerstatsElement}>{team}</span>
+            <span className={PlayerStatsCSS.playerstatsElement}>{games_played}</span>
+            <span className={PlayerStatsCSS.playerstatsElement}>{points}</span>
+            <span className={PlayerStatsCSS.playerstatsElement}>{assists}</span>
+            <span className={PlayerStatsCSS.playerstatsElement}>{rebounds}</span>
+            <span className={PlayerStatsCSS.playerstatsElement}>{steals}</span>
+            <span className={PlayerStatsCSS.playerstatsElement}>{blocks}</span>
         </div>
     )
 };

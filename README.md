@@ -19,7 +19,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   
   1. Web responsive page. Used css modules to avoid clashing of class name in one massive master css
      styles page. [example code](/nbaPlayoffPoolDocs/cssModules.JPG)
-  2. I fetched the basketball season stats from an api. This was done using async and await.  
-     [example code ](/nbaPlayoffPoolDocs/fetch.JPG)
+  2. I fetched the basketball season stats from an api. This was done using async and await.[example code ](/nbaPlayoffPoolDocs/fetch.JPG)
      ( As nba playoff season begins, I will create fetching of nba playoff points daily to update the players' playoff points.)
   3. I used easbase, a serverless database. 

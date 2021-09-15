@@ -25,5 +25,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   3. I used easbase, a serverless database. The nba players database is large and the application will allow for many calls to filter and sort 
 	    the data so a database was necessary.  The advantages of easybase is a server is not needed and it has a react interface.
      [example code](/nbaPlayoffPoolDocs/database.JPG)
-     
+  4. State management across components was handled with react redux. [example code 1](/nbaPlayoffPoolDocs/reactRedux1.JPG), [example code 2](/nbaPlayoffPoolDocs/reactRedux2.JPG)
+     [example code 3](/nbaPlayoffPoolDocs/reactRedux3.JPG), [example code 4](/nbaPlayoffPoolDocs/reactRedux4.JPG)
  

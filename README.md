@@ -21,6 +21,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
      styles page. [example code](/nbaPlayoffPoolDocs/cssModules.JPG)
   2. I fetched the basketball season stats from an api. This was done using async and await.
      [example code ](/nbaPlayoffPoolDocs/fetch.JPG)
-      
      ( As nba playoff season begins, I will create fetching of nba playoff points daily to update the players' playoff points.)
-  4. I used easbase, a serverless database. 
+  3. I used easbase, a serverless database. The nba players database is large and the application will allow for many calls to filter and sort 
+	    the data so a database was necessary.  The advantages of easybase is a server is not needed and it has a react interface.
+     [example code](/nbaPlayoffPoolDocs/database.JPG)
+     
+ 

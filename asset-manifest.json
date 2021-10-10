@@ -6,9 +6,9 @@
     "static/js/1.d572b870.chunk.js.map": "/nbaPlayoffPool/static/js/1.d572b870.chunk.js.map",
     "static/js/2.280e00f4.chunk.js": "/nbaPlayoffPool/static/js/2.280e00f4.chunk.js",
     "static/js/2.280e00f4.chunk.js.map": "/nbaPlayoffPool/static/js/2.280e00f4.chunk.js.map",
-    "main.css": "/nbaPlayoffPool/static/css/main.6f0fd46b.chunk.css",
-    "main.js": "/nbaPlayoffPool/static/js/main.1fd972df.chunk.js",
-    "main.js.map": "/nbaPlayoffPool/static/js/main.1fd972df.chunk.js.map",
+    "main.css": "/nbaPlayoffPool/static/css/main.c6aaedfb.chunk.css",
+    "main.js": "/nbaPlayoffPool/static/js/main.4fbf2b01.chunk.js",
+    "main.js.map": "/nbaPlayoffPool/static/js/main.4fbf2b01.chunk.js.map",
     "runtime-main.js": "/nbaPlayoffPool/static/js/runtime-main.94ae330a.js",
     "runtime-main.js.map": "/nbaPlayoffPool/static/js/runtime-main.94ae330a.js.map",
     "static/js/5.29243ba4.chunk.js": "/nbaPlayoffPool/static/js/5.29243ba4.chunk.js",
@@ -30,14 +30,14 @@
     "static/js/13.f6ec90bc.chunk.js": "/nbaPlayoffPool/static/js/13.f6ec90bc.chunk.js",
     "static/js/13.f6ec90bc.chunk.js.map": "/nbaPlayoffPool/static/js/13.f6ec90bc.chunk.js.map",
     "index.html": "/nbaPlayoffPool/index.html",
-    "static/css/main.6f0fd46b.chunk.css.map": "/nbaPlayoffPool/static/css/main.6f0fd46b.chunk.css.map",
+    "static/css/main.c6aaedfb.chunk.css.map": "/nbaPlayoffPool/static/css/main.c6aaedfb.chunk.css.map",
     "static/js/5.29243ba4.chunk.js.LICENSE.txt": "/nbaPlayoffPool/static/js/5.29243ba4.chunk.js.LICENSE.txt",
     "static/media/App.css": "/nbaPlayoffPool/static/media/logosBackground2.f8565ece.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.94ae330a.js",
     "static/js/5.29243ba4.chunk.js",
-    "static/css/main.6f0fd46b.chunk.css",
-    "static/js/main.1fd972df.chunk.js"
+    "static/css/main.c6aaedfb.chunk.css",
+    "static/js/main.4fbf2b01.chunk.js"
   ]
 }
